@@ -1,6 +1,7 @@
 // 🌲☀️🌲
 export { isBase } from './core/utils/isBase';
 export { isEthereum } from './core/utils/isEthereum';
+
 export {
   getOnchainKitConfig,
   setOnchainKitConfig,
