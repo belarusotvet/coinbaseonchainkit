@@ -2,6 +2,8 @@ import SitemapGenerator from 'sitemap-generator';
 
 let pagesInSitemap = 0;
 
+
+
 const generator = SitemapGenerator('https://onchainkit.xyz', {
   changeFreq: 'daily',
   ignore: (url) => {
