@@ -13,7 +13,6 @@ import {
 import { OnchainKitProvider } from '@coinbase/onchainkit';
 import type React from 'react';
 import { createContext, useEffect, useState } from 'react';
-import { base } from 'wagmi/chains';
 
 type State = {
   activeComponent?: OnchainKitComponent;
