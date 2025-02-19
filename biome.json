@@ -17,7 +17,7 @@
       "bracketSameLine": false,
       "quoteStyle": "single",
       "jsxQuoteStyle": "double",
-      "indentWidth": 2,
+      "indentWidth": 4,
       "indentStyle": "space",
       "semicolons": "always",
       "trailingCommas": "all"
