@@ -3,8 +3,6 @@ import { type Address, formatUnits } from 'viem';
 import { useConfig } from 'wagmi';
 import type { UseCommerceContractsParams } from '../types';
 import { getCommerceContracts } from '../utils/getCommerceContracts';
-import { getUSDCBalance } from '../utils/getUSDCBalance';
-import { handlePayRequest } from '../utils/handlePayRequest';
 
 export const useCommerceContracts = ({
   chargeHandler,
