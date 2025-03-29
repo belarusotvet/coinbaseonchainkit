@@ -10,14 +10,6 @@
     "clean": "rm -rf dist tsconfig.tsbuildinfo",
     "dev": "bun src/cli.ts"
   },
-  "files": [
-    "dist/**",
-    "!dist/**/*.tsbuildinfo",
-    "src/**/*.ts",
-    "!src/**/*.test.ts",
-    "!src/**/*.test-d.ts",
-    "templates/**"
-  ],
   "bin": {
     "create-onchain": "./dist/esm/cli.js"
   },
